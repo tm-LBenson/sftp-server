@@ -369,6 +369,6 @@ const server = new Server({ hostKeys: [hostKey] }, (client) => {
   });
 });
 
-server.listen(8080, "0.0.0.0", () => {
-  console.log("SFTP server listening on port 8080");
+server.listen(2222, "0.0.0.0", () => {
+  console.log("SFTP server listening on port 2222");
 });
